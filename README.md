@@ -1,3 +1,3 @@
 # Nomad-2023
 
-Studying Front end developing!!
+HTML and CSS are so much fun!
