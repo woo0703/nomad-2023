@@ -1,0 +1,119 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    
+    
+    
+}
+
+.header, .left, .right {
+    display: flex;
+    align-items: center;
+}
+.left, .center, .right{
+    width: 33%;
+}
+.left{
+    justify-content: flex-start;
+    font-weight: bolder;
+}
+.left p{
+    padding: 0 5px;
+}
+.center{
+    text-align: center;
+    font-weight: bolder;
+    
+}
+.right{
+    justify-content: flex-end;
+}
+
+.header p{
+    margin: 0;
+}
+
+.right .fa-lock,
+.right p,
+.right .fa-battery-half,
+.right .fa-bolt {
+    padding: 0 3px;
+}
+
+
+.first-section {
+    padding-top: 1px; 
+}
+
+
+.first-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 15px;
+}
+
+.first-section-icons i{
+    margin-left: 15px;
+}
+
+
+
+.notification{
+    background-color: tomato;
+    display: block;
+    width: 20px;
+    height: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 10px;
+    position: absolute;
+    right: -10px;
+    top: -8px;
+}
+
+.footer-nav a{
+    text-decoration: none;
+    position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+.footer-nav{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    margin: 0;
+    background-color: rgb(243, 243, 243);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.footer-nav a{
+    color: black;
+
+}

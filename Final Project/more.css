@@ -1,0 +1,131 @@
+
+.gear{
+    color: black;
+}
+
+.second-section{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.second-secret{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.more-second-title{
+    display: flex;
+    flex-direction: column;
+}
+.more-second-title span:first-child{
+    margin-bottom: 10px;
+}
+.more-second-title span:last-child{
+    color: grey;
+    font-size: 12px;
+    display: block;
+    display: flex;
+    align-items: center;
+}
+.fa-message{
+    margin-right: 15px;
+    
+}
+
+.more-second-title span:last-child span{
+    color: red;
+    border: 1px solid red;
+    display: block;
+    width: 12px;
+    height: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    font-size: 8px;
+    margin: 0;
+    margin-left: 4px;
+    margin-top: 1px;
+}
+
+.find-first-section{
+    display: flex;
+    justify-content: space-around;
+}
+.find-first-section-icon{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.find-first-section-icon span{
+    display: block;
+    font-size: 10px;
+    font-weight: bold;
+}
+.find-first-section-icon i{
+    margin-bottom: 20px;
+
+}
+
+
+.thrid-section{
+    padding-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@keyframes spining-gear {
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+
+.gear span i:hover{
+    animation: spining-gear 1s infinite;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+.kakao-icon{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+

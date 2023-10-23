@@ -1,0 +1,181 @@
+
+
+.gear{
+    color: black;
+}
+
+
+.friends-name{
+    padding: 10px 15px;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.friends-name span:first-child{
+    background-color: rgb(202, 202, 202);
+    width: 20px;
+    height: 20px;
+    color: white;
+    display: block;
+    border-radius: 10px;
+    margin-right: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.friends-name span:nth-child(2){
+    color: grey;
+}
+.friends-name span:last-child{
+    color: rgb(196, 194, 194);
+    margin-left: 4px;
+}
+
+.second-section{
+    display: flex;
+    align-items: center;
+    
+}
+.second-section img{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    border-radius: 20px;
+    margin: 0 15px;
+    
+}
+
+.second-section span{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.thrid-section{
+    margin: 15px 15px;
+    border-top: 1px solid rgb(230, 230, 230);
+    padding-top: 10px;
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+}
+
+.fourth-section{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 15px;
+    align-items: center;
+
+}
+.left-section{
+    display: flex;
+    align-items: center;
+}
+.yellow-box{
+    background-color: yellow;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    border-radius: 23px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+.yellow-box span i{
+    font-size: 35px;
+
+}
+
+.yellow-box-ch{
+    position: absolute;
+    color: yellow;
+    top: 17px;
+}
+
+#splash{
+    background-color: yellow;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 110px;
+    animation: hidesplash 0.5s ease-in-out forwards;
+    animation-delay: 1s;
+}
+
+@keyframes hidesplash{
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+
+
+.notification{
+    animation: red-circle 2s ease-in-out infinite;
+}
+
+@keyframes red-circle {
+    0%{
+        transform: none;
+    }
+    50%{
+        transform: translateY(-5px) rotateY(360deg);
+    }
+    100%{
+        transform: none;
+    }
+    
+}
+
+
+
+
+@keyframes spining-gear {
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+
+.gear span i:hover{
+    animation: spining-gear 1s infinite;
+    
+}
+.no-mobile{
+    position: absolute;
+    z-index: 99;
+    height: 100vh;
+    width: 100vw;
+    background-color: yellow;
+    display: flex;
+    top: 0;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+}
+
+@media screen and (max-width:645px){
+    .no-mobile{
+        display: none;
+        
+    }
+    
+}

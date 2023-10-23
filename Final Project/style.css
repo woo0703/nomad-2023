@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.header{
+    width: 100%;
+    
+}
+
+.header, .left, .right {
+    display: flex;
+    align-items: center;
+}
+.left, .center, .right{
+    width: 33%;
+}
+.left{
+    justify-content: flex-start;
+    font-weight: bolder;
+}
+.left p{
+    padding: 0 5px;
+}
+.center{
+    text-align: center;
+    font-weight: bolder;
+    
+}
+.right{
+    justify-content: flex-end;
+}
+
+.header p{
+    margin: 0;
+}
+
+.right .fa-lock,
+.right p,
+.right .fa-battery-half,
+.right .fa-bolt {
+    padding: 0 3px;
+}
+h1{
+    margin-top: 80px;
+}
+.h1-content{
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+
+.h1-content p{
+    margin: 0;
+    font-size: 20px;
+
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+input{
+    border: none;
+    border-bottom: 1px solid grey;
+    font-size: 20px;
+    padding: 25px 0;
+    width: 90%;
+
+}
+
+input:focus{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid grey;
+    
+}
+
+button{
+    border: none;
+    width: 90%;
+    padding: 20px 0;
+    margin: 5px 0;
+}
+
+button:hover{
+    background-color: rgb(212, 212, 212);
+    cursor: pointer;
+}
+
+#bottom{
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+}
